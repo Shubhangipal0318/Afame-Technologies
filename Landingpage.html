@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Shop - Amazing Deals on High-Performance Laptops</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+        .highlight {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        .lead {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .cta-form {
+            background: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .cta-form h2 {
+            margin-top: 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        .btn {
+            display: inline-block;
+            background: #e8491d;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #ff6a3c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to <span class="highlight">Laptop Shop</span></h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <p class="lead">Discover amazing deals on high-performance laptops for work, gaming, and everything in between!</p>
+        
+        <ul>
+            <li>Wide range of top brands</li>
+            <li>Competitive prices</li>
+            <li>Expert advice and support</li>
+            <li>Fast, free shipping on orders over $500</li>
+        </ul>
+
+        <div class="cta-form">
+            <h2>Get Exclusive Offers!</h2>
+            <p>Sign up now to receive special discounts and be the first to know about our latest arrivals.</p>
+            <form action="/submit" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" class="btn">Get Exclusive Offers</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
